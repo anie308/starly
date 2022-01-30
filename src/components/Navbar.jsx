@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { mobile } from '../responsive'
 import { FaSearch} from 'react-icons/fa'
-import Logo from '../assets/word.png'
+// import Logo from '../assets/word.png'
 
 
  const Container = styled.div`
@@ -49,12 +49,9 @@ const Text = styled.p`
  font-size: 25px;
  font-weight: 600;
  margin: 0;
- margin-left: 10px;
+ margin-right: 10px;
 
- @media screen and (max-width:900px){
-     display: none;
-     margin: 0;
- }
+
 `
  const NavLinks = styled.div`
  display: flex;
@@ -90,14 +87,14 @@ const SearchCon = styled.div`
 display: flex;
 align-items: center;
 background: white;
-padding: 6px 4px;
+padding: 5px 4px;
 border-radius: 20px;
 color: black;
-width: 200px;
+width: 180px;
 justify-content: space-between;
 
 @media screen and (max-width:900px){
-    width:150px;
+    width:140px;
     /* margin-right: 20px; */
 }
 
@@ -170,7 +167,6 @@ function Navbar() {
         <Container >
             <Nav>
                 <NavLogo to='/'>
-                    <Log src={Logo}/>
                    <Text> Starly</Text>
                    </NavLogo>
                 <NavLinks>

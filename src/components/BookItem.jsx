@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const Container  = styled.div`
-
+const Container  = styled(Link)`
+text-decoration: none;
 `
 const Div = styled.div`
 display: flex;
@@ -80,9 +81,9 @@ display: none;
 `
 
 
-function PopularBook({item}) {
+function BookItem({item}) {
     return (
-        <Container>
+        <Container to='/book'>
           <Div>
           <SubDiv1>
             <Image src='https://media.istockphoto.com/photos/the-musicians-were-playing-rock-music-on-stage-there-was-an-audience-picture-id1319479588?b=1&k=20&m=1319479588&s=170667a&w=0&h=bunblYyTDA_vnXu-nY4x4oa7ke6aiiZKntZ5mfr-4aM='/>
@@ -106,4 +107,4 @@ function PopularBook({item}) {
     )
 }
 
-export default PopularBook
+export default BookItem

@@ -3,7 +3,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { book} from '../data'
-import PopularBook from './PopularBook';
+import BookItem from './BookItem';
 
 const Container  = styled.div`
  padding: 40px 100px;
@@ -93,7 +93,7 @@ function PopularBooks() {
             <BookList>
                 {
                     book.map(item => (
-                        <PopularBook item={item} key={item.id} />
+                        <BookItem item={item} key={item.id} />
                     ))
                 }
 
