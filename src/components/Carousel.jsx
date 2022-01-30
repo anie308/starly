@@ -8,6 +8,10 @@ import Slider from 'react-slick'
 const Container  = styled.div`
 height: 60vh;
 width: 100vw;
+
+@media screen and (max-width:900px){
+    height: 40vh;
+}
 /* background: yellow; */
 
 `
@@ -21,6 +25,10 @@ width: 100%;
 img{
     width: 100%;
     height: 60vh;
+
+    @media screen and (max-width:900px){
+    height: 40vh;
+}
 }
 `
 const settings = {
