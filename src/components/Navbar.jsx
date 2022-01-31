@@ -42,9 +42,7 @@ import { FaSearch} from 'react-icons/fa'
  }
 `
 
-const Log = styled.img`
-height: 40px;
-`
+
 const Text = styled.p`
  font-size: 25px;
  font-weight: 600;

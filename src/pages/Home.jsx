@@ -1,5 +1,4 @@
 import React  from 'react';
-import  styled  from 'styled-components';
 import Carousel from '../components/Carousel';
 import Categ from '../components/Categ';
 import Footer from '../components/Footer';
@@ -12,7 +11,7 @@ function Home() {
     return (
         <>
         <Navbar/>
-        {/* <Carousel/> */}
+        <Carousel/>
         <PopularBooks/>
         <RankTrend/>
         <Categ/>
