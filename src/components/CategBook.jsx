@@ -10,7 +10,7 @@ width:150px;
 
 `
 const BookImg = styled.div`
-height: 214px;
+height: 200px;
 width: 160px;
 border: 1px solid black;
 /* background: orange; */

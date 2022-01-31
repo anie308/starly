@@ -7,11 +7,11 @@ text-decoration: none;
 `
 const Div = styled.div`
 display: flex;
-width: 350px; 
+width: 300px; 
 height: 100%;
 max-height: 280px;  
 @media screen and (max-width:1200px){
-  width: 300px;
+  width: 250px;
  }
 @media screen and (max-width:900px){
  width: auto;

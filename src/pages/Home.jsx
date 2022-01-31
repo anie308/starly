@@ -8,13 +8,9 @@ import PopularBooks from '../components/PopularBooks';
 import RankTrend from '../components/RankTrend';
 
 
-export const Container = styled.div`
-    
-`
 function Home() {
     return (
         <>
-       
         <Navbar/>
         <Carousel/>
         <PopularBooks/>

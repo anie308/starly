@@ -1,29 +1,78 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Container = styled.div` `
-const Top = styled.div` `
+const Container = styled.div`
+padding: 20px;
+background:yellow;
+ `
+const Top = styled.div`
+`
 const One = styled.div`
+display: flex;
+
  `
 const BookCover = styled.div` 
-height: 303px;
+padding: 0px 85px 0px 140px;
+
+
+@media screen and (max-width:900px){
+    height: 303px;
 width: 140px;
-background: blue;
+}
+
+
 `
+
+const Image = styled.div`
+    background: blue;
+    height: 303px;
+width: 220px;
+
+`
+
 const ContentSpec = styled.div` `
-const Title = styled.div` `
-const Auth = styled.div` `
-const Author = styled.div` `
-const Status = styled.div` `
-const Lang = styled.div` `
-const Language = styled.div` `
-const AgeRate = styled.div` `
-const Rat = styled.div` `
-const Rating = styled.div` `
-const Chapters = styled.div` `
-const Views = styled.div` `
-const Action = styled.div` `
-const Read = styled.div` `
+const Title = styled.h1` 
+font-size: 32px;
+color: #3a4a5a;
+
+`
+const Auth = styled.div` 
+display: flex;
+align-items: center;
+color: #3a4a5a;
+
+`
+const Author = styled.strong`
+font-size: 20px;
+`
+const Status = styled.strong` 
+font-size: 16px;
+`
+const Lang = styled.div`
+display: flex;
+`
+const Language = styled.div` 
+font-size: 20px;
+`
+const AgeRate = styled.div`
+font-size: 16px;
+`
+const Rat = styled.div` 
+display: flex;
+color: #3a4a5a;
+font-size: 30px;
+
+`
+const Rating = styled.strong` `
+const Chapters = styled.strong` `
+const Views = styled.strong` `
+const Action = styled.div` 
+display: flex;
+align-items: center;
+`
+const Read = styled.button`
+padding: 5px 10px;
+`
 const AddTo = styled.div` `
 const Two = styled.div` `
 const Div1 = styled.div` `
@@ -37,26 +86,26 @@ function Detail() {
         <Top>
             <One>
                 <BookCover>
-
+                    <Image/>
                 </BookCover>
                 <ContentSpec>
-                        <Title></Title>
+                        <Title>Her Forbidden Alpha</Title>
                        <Auth>
-                       <Author></Author>
-                       <Status></Status>
+                       <Author>By: Moonlight Muse</Author>
+                       <Status>Completed</Status>
                        </Auth>
                        <Lang>
-                           <Language></Language>
-                           <AgeRate></AgeRate>
+                           <Language>English</Language>
+                           <AgeRate>18+</AgeRate>
                        </Lang>
                        <Rat>
-                           <Rating></Rating>
-                           <Chapters></Chapters>
-                           <Views></Views>
+                           <Rating>9.9</Rating>
+                           <Chapters>79</Chapters>
+                           <Views>356.7k</Views>
                        </Rat>
                        <Action>
-                           <Read></Read>
-                           <AddTo></AddTo>
+                           <Read>Read</Read>
+                           <AddTo>Add to Library</AddTo>
                        </Action>
                 </ContentSpec>
             </One>

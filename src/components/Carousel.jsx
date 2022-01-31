@@ -6,24 +6,20 @@ import Slider from 'react-slick'
 
 
 const Container  = styled.div`
-height: 60vh;
-width: 100vw;
 
-@media screen and (max-width:900px){
-    height: 40vh;
-}
+
 /* background: yellow; */
 
 `
 const Item = styled.div`
-display:flex;
+/* display:flex;
 justify-content: center;
-align-items: center;
+align-items: center; */
 margin: 0 10px;
-width: 100%;
+width: 100vw;
 
 img{
-    width: 100%;
+    width: inherit;
     height: 60vh;
 
     @media screen and (max-width:900px){
@@ -39,6 +35,7 @@ const settings = {
     slidesToScroll: 1,
     autoplay: true,
     autoplayspeed:1000,
+    arrows: false
   
   };
 
