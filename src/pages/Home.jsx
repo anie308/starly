@@ -12,7 +12,7 @@ function Home() {
     return (
         <>
         <Navbar/>
-        <Carousel/>
+        {/* <Carousel/> */}
         <PopularBooks/>
         <RankTrend/>
         <Categ/>
