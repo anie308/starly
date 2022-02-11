@@ -4,6 +4,8 @@ import styled from 'styled-components';
 
 const Container  = styled(Link)`
 text-decoration: none;
+color: #3A4A5A;
+
 `
 const Div = styled.div`
 display: flex;
@@ -62,6 +64,8 @@ justify-content:space-between;
 font-size: 14px;
 `
 const Author = styled.div`
+color: #3A4A5A;
+
 `
 const Views = styled.div`
 @media screen and (max-width:500px){

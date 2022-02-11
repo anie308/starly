@@ -4,7 +4,7 @@ export const book = [
         title: 'The Trap Of Ace',
         author: 'Eva Zahan',
         img : '',
-        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a, aut molestias rem quidem porro...',
+        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a, porro...',
         views: '664k'
         
     },
@@ -13,7 +13,7 @@ export const book = [
         title: 'Entangled with the...',
         author: 'Eva Zahan',
         bookImg : '',
-        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a, aut molestias rem quidem porro...',
+        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a, porro...',
         views: '664k'
 
 
@@ -23,7 +23,7 @@ export const book = [
         title: 'My Alpha\'s mark',
         author: 'Eva Zahan',
         bookImg : '',
-        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a, aut molestias rem quidem porro...',
+        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a,porro...',
         views: '664k'
 
 
@@ -33,7 +33,7 @@ export const book = [
         title: 'Sinful Temptation',
         author: 'Eva Zahan',
         bookImg : '',
-        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a, aut molestias rem quidem porro...',
+        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a, porro...',
         views: '664k'
 
 
@@ -43,7 +43,7 @@ export const book = [
         title: 'My Fiance\'s Husband',
         author: 'Eva Zahan',
         bookImg : '',
-        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a, aut molestias rem quidem porro...',
+        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a,  porro...',
         views: '664k'
 
 
@@ -53,7 +53,7 @@ export const book = [
         title: 'Chosen By The Dragon... ',
         author: 'Eva Zahan',
         bookImg : '',
-        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a, aut molestias rem quidem porro...',
+        details: '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a, porro...',
         views: '664k'
 
 
