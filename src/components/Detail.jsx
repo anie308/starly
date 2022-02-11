@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaPlusCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -13,7 +14,7 @@ const Top = styled.div`
 
 `
 const One = styled.div`
-background:yellow;
+background: lime;
 
 display: flex;
 padding: 50px 0;
@@ -45,6 +46,7 @@ const Image = styled.div`
     background: blue;
     height: 323px;
 width: 220px;
+border-radius: 10px;
 
 `
 
@@ -167,17 +169,29 @@ border-radius: 10px;
 margin-right: 20px;
 cursor: pointer;
 `
-const AddTo = styled.div` `
+const AddTo = styled.button` 
+cursor: pointer;
+outline: none;
+border: none;
+display:flex;
+align-items: center;
+
+.icon{
+margin-right:7px;
+}
+`
 const Two = styled.div`
 margin-bottom: 30px;
 padding: 50px 85px 0px 140px;
 
 
 @media screen and (max-width:900px){
-    padding: 0;
+    padding: 20px;
 }
 `
 const Div1 = styled.div`
+display: flex;
+align-items: center;
 
 `
 const  Div2= styled.div` 
@@ -186,9 +200,17 @@ margin-top: 20px;
 const  Syn= styled.div` 
 font-size: 23px;
 border-left: solid black 5px;
-padding: 3px;
+padding-left:10px ;
+margin-right:20px;
 `
-const Tags = styled.div` `
+const Tags = styled.div` 
+background: lightgray ;
+border: solid 2px gray;
+border-radius: 20px;
+padding: 0 5px;
+font-size: 14px;
+
+`
 
 function Detail() {
   return (
@@ -226,14 +248,14 @@ function Detail() {
                        </Rat>
                        <Action>
                            <Read to='/bookitem'>Read</Read>
-                           <AddTo>Add to Library</AddTo>
+                           <AddTo> <FaPlusCircle className='icon'/> Add to Library </AddTo>
                        </Action>
                 </ContentSpec>
             </One>
             <Two>
                 <Div1>
                 <Syn>Synopsis</Syn>
-                    <Tags></Tags>
+                    <Tags>Erotic</Tags>
                 </Div1>
                 <Div2>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus cupiditate consectetur similique quis molestias sit. Minus numquam consequuntur fugiat beatae distinctio animi nihil, aperiam, aliquam explicabo laudantium eaque modi eveniet.
