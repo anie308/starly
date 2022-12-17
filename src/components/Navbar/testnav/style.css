@@ -1,0 +1,91 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"); */
+
+
+
+/* #main{ */
+    /* width: fit-content !important; */
+/* } */
+#main  .dRRVWs{
+    border-bottom: none !important;
+}
+#main .bXMiUq {
+    box-shadow:0.5px 0.866px 2px 0px rgb(0 0 0 / 15%);
+    padding-right: 10px !important;
+    padding-bottom: 10px;
+    /* width: auto !important; */
+    position:sticky !important;
+
+}
+/* #main .sc-itWPBs .eAnMLe {
+    width: fit-content !important;
+} */
+#main .content{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#main .content::-webkit-scrollbar {
+    width: 0;
+    background: transparent; 
+    /* make scrollbar transparent on Chrome, Opera and other webkit browsers */
+  }
+  
+  /* make scrollbar transparent on Firefox, IE and Edge*/
+#main .content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+/* #main .bXMiUq{
+    overflow-y:unset !important;
+    overflow-x: unset !important;
+}   */
+
+#main .dRRVWs .head-div {
+    padding: 20px auto !important;
+    font-size: 17px;
+}
+#main .link {
+    background-color: blue !important;
+    /* color: #ee3799 !important; */
+    color: #161823 ;
+    text-decoration: none;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+#main .sc-gHjyzD .iRwMlP .pro-sidebarr{ 
+    /* width: fit-content !important; */
+     /* min-width: 15px !important; */
+ }
+#main .sc-gVkuDy:hover{
+    background-color: #ffe8f4;
+    color: #ee3799;
+    font-weight: 600 !important;
+}
+#main .sc-gVkuDy{
+    margin: 0px !important;
+    /* padding: 5px 0px 5px 0px; */
+    border-radius: 0px 100px 100px 0px;
+    font-size: 14px;
+    color: #161823 ;
+}
+#main .logo{
+    width: 10%;
+}
+#main .menuitems{
+    font-size: 12px !important;
+    margin: 0px !important;
+    padding: 7px 0px 8px 0px;
+    border-radius: 0px 100px 100px 0px;
+    font-size: 14px;
+    color: #161823 ;
+}
+#main .menuitems:hover{
+    background-color: #ffe8f4;
+    color: #ee3799;
+}
+#main .sc-dcgwPl .bXMiUq{
+    margin-right: 0!important;
+    /* width: fit-content !important; */
+}

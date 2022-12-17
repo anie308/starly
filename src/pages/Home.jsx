@@ -2,7 +2,7 @@ import React  from 'react';
 import Carousel from '../components/Carousel';
 import Categ from '../components/Categ';
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
 import PopularBooks from '../components/PopularBooks';
 import RankTrend from '../components/RankTrend';
 
@@ -21,7 +21,6 @@ function Home() {
         <PopularBooks/>
         <Categ/>
         <Footer/>
-
         </>
     )
 }

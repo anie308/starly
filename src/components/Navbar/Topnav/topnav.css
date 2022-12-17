@@ -1,0 +1,117 @@
+
+
+.nav-link{
+    padding-left: 20px !important;
+    color: #00000096 !important;
+    
+}
+.form-control {
+    display: block;
+    width: 60% !important;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(78, 76, 76, 0.589) !important;
+    border-radius: 2rem 0rem 0rem 2rem  !important;
+}
+.form-control:hover,
+.btn:hover{
+    border: 1px solid #28a745 !important;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid rgba(78, 76, 76, 0.589) !important;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0rem 2rem 2rem 0rem !important;
+}
+svg{
+    color: rgba(78, 76, 76, 0.589) !important;
+}
+
+.navbar{
+    background-color: #fff !important;
+    box-shadow: 0 .1rem 0rem  rgba(0,0,0,.15)!important;
+}
+
+
+#root{
+    /* box-shadow: 3px 10px 0px rgb(0 0 0 / 0.2); */
+    box-shadow: 0 .1rem 0rem  rgba(0,0,0,.15)!important;
+    height: auto;
+    background-color: #fff;
+    position:relative;
+
+}
+#root .img-icon{
+    height: auto;
+    width: auto;
+    background-color: #49505763;
+    padding: 7px ;
+
+}
+
+#root .item:hover{
+      background-color: rgba(0, 0,0, 0.1) !important;
+    }
+/* .btn{
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    
+} */
+#root .search{
+    border-radius: 20px 0px 0px 20px !important;
+    margin: 0 !important;
+    width: 80%; 
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0000;
+    background-color: #00000052;
+    /* background-clip: padding-box; */
+    border-radius: 0.25rem;
+
+
+} 
+#root .search:hover{
+    border-color: 1px solid green !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
+#root .icon{
+    width: 50px !important;
+    height: calc(1.5em + 0.74rem + 2px);
+    border-radius: 0px 20px 20px 0px   !important;
+    background-color:none;
+    color: #fff;
+    background-color: #00000052;
+    border: none !important;
+    outline: none !important;
+}
+#root .icon:hover{
+    background-color: green;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#root .fa-user-circle-o{
+    font-size: 35px;
+    color: #fff;
+}
+#root .form{
+    height: 100% !important;
+    min-height: 100% !important;
+}
